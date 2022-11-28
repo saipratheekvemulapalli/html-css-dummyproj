@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css" type="text/css" />
+    <title>Menu | coffee shop</title>
+</head>
+
+<body>
+ <header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html" class="login">Login</a></li>
+        </ul>
+    </nav>
+ </header>
+ <main>
+    <aside>
+        <img src="images/coffeelogo.jpg" alt="pratheek's coffee shop" />
+    </aside>
+
+
+    
+    <article>
+        <!-- <img src="images/expresso.jpg" alt="Expresso" />
+        <span>
+            <p class="coffee-bot1">Expresso</p>
+        </span>
+        
+        <p class="price-1" >$12.09</p>
+    
+        <div class="price" style="font-size :21px;">$4.90</div>
+    
+        <button type="button" class="order1">order</button>
+
+        <img src="images/latte.jpg" alt="latte" />
+        <span>
+            <p  class="coffee-bot1">Latte</p>
+        </span>
+        <p class="price-1">$11.05</p> -->
+
+        <!-- <h1>
+            Menu
+        </h1> -->
+
+        <section class="column-desktop" >
+            <div class="coffee1">
+                <img src="images/expresso.jpg" alt="expresso" />
+                <div class="column">
+                <div class="title" >Expresso</div>
+                <div class="price" >$12.09</div>
+            </div>
+           
+            <div class="order-coffee">
+                 <a href="order.html" />order</a>
+            </div>
+           
+            </div>
+
+
+            <div class="coffee2">
+                <img src="images/latte.jpg" alt="Latte" />
+                <div class="column">
+                    <div class="title">Latte</div>
+                    <div class="price" >$11.5</div>
+                </div>
+
+                <div class="order-coffee">
+                    <a href="order.html" />order</a>
+                    
+               </div>
+               
+                
+            </div>
+
+            <div class="coffee3">
+                <img src="images/mocha.jpg" alt="mocha" />
+                <div class="column">
+                <div class="title" >Mocha</div>
+                <div class="price" >$19.02</div>
+            </div>
+           
+            <div class="order-coffee">
+                 <a href="order.html" />order</a>
+            </div>
+           
+            </div>
+        </section>
+
+
+
+
+       
+       
+    </article>
+     
+ </main>
+ <footer>
+
+
+
+    <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="login">Login</a></li>
+    </ul>
+</nav>
+ </footer>
+</body>
+
+
+
+
+
+<!-- <script>
+    window.addEventListener("DOMContentLoaded",function(e) {
+        const orderButtons =document.querySelectorAll("button[data-order");
+        orderButtons.forEach(function(button) {
+            button.addEventListener("click",function(e) {
+                const button = e.currentTarget;
+                const container = button.parentNode;
+                const order ={
+                    id:button.getAttribute("data-order"),
+                    title:container.querySelector(".title").innerText,
+                    price : conatiner.querySelector(".price").innerText,
+                    
+                };
+                localStorage.setItem("order", JSON.stringify(order));
+                const url = window.location.href.replace("pies.html","order.html");
+                
+            });
+        });
+    });
+</script> -->
+
+
+
+
+</html>
